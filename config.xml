@@ -20,6 +20,7 @@ Jens Nielsen
     <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 
     <access origin="http://www.sik.dk" />
+    <access origin="http://127.0.0.1*"/>
 
     <preference name="OpenAllWhitelistURLsInWebView"    value="No" />
     <preference name="orientation"                      value="portrait" />
