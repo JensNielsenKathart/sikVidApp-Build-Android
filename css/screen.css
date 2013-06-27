@@ -683,8 +683,8 @@ section.items article a img {
   width: 90%;
   height: 85%;
   top: 65px;
+  left: 0px;
   display: none;
-  margin-right: 0px;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   padding: 10% 5% 5% 5%;
