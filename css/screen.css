@@ -723,20 +723,20 @@ section.items article a img {
   font-size: 30px;
   margin: 0 0 10px 0;
   padding: 0 0 0 51px;
-  height: 41px;
-  background-size: 41px auto;
+  height: 42px;
+  background-image: url(../img/iconer.png);
 }
 /* line 577, ../sass/screen.scss */
 .android section.items article .itemHeader h2.vasktor {
   font-size: 17px;
   padding: 0 0 0 97px;
-  background-image: url(../img/iconer.svg), url(../img/iconer.svg);
+  background-image: url(../img/iconer.png), url(../img/iconer.png);
 }
 /* line 585, ../sass/screen.scss */
 .android section.items article .itemHeader h2.komOvnEm {
   font-size: 18px;
   padding: 0 0 0 142px;
-  background-image: url(../img/iconer.svg), url(../img/iconer.svg), url(../img/iconer.svg);
+  background-image: url(../img/iconer.png), url(../img/iconer.png), url(../img/iconer.png);
 }
 /* line 595, ../sass/screen.scss */
 .android section.items article .itemHeader h2 p {

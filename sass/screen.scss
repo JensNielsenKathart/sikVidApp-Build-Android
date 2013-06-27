@@ -569,16 +569,16 @@ section.items {
         font-size: 30px;
         margin: 0 0 10px 0;
         padding: 0 0 0 51px;
-        height: 41px;
+        height: 42px;
         background: {
-          size: 41px auto;
+          image: url(../img/iconer.png);
         }
 
         &.vasktor {
           font-size: 17px;
           padding: 0 0 0 97px;
           background: {
-            image: url(../img/iconer.svg), url(../img/iconer.svg);
+            image: url(../img/iconer.png), url(../img/iconer.png);
           }
         }
 
@@ -586,7 +586,7 @@ section.items {
           font-size: 18px;
           padding: 0 0 0 142px;
           background: {
-            image: url(../img/iconer.svg), url(../img/iconer.svg), url(../img/iconer.svg);
+            image: url(../img/iconer.png), url(../img/iconer.png), url(../img/iconer.png);
           }
         }
 
