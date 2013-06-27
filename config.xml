@@ -16,21 +16,22 @@ Jens Nielsen
 
 <content src="index.html" />
 
-    <!--<access origin=".*" browserOnly="true"/>-->
-    <access origin="http://www.sik.dk/tjek-din-haandvaerker" />
+    <feature name="http://api.phonegap.com/1.0/device" />
 
-    <preference name="OpenAllWhitelistURLsInWebView" value="No" />
-    <preference name="AllowInlineMediaPlayback" value="true" />
-    <preference name="orientation" value="portrait" />
-    <preference name="show-splash-screen-spinner" value="true" />
+    <access origin="http://www.sik.dk" />
+
+    <preference name="OpenAllWhitelistURLsInWebView"    value="No" />
+    <preference name="orientation"                      value="portrait" />
+    <preference name="fullscreen"                       value="true" />
 
     <icon src="img/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
     <icon src="img/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
     <icon src="img/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
     <icon src="img/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
 
-    <gap:splash src="img/screen/ios/screen-iphone-portrait.png" gap:platform="android" width="320" height="480" />
-    <gap:splash src="img/screen/ios/screen-iphone-portrait-2x.png" gap:platform="android" width="640" height="960" />
-    <gap:splash src="img/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="android" width="640" height="1136" />
+    <gap:splash src="img/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="img/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="img/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="img/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
 
 </widget>

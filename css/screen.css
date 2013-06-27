@@ -681,45 +681,46 @@ section.items article a img {
 .android #info {
   width: 90%;
   height: 85%;
-  top: -100%;
+  top: 65px;
+  display: none;
   margin-right: 0%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   padding: 10% 5% 5% 5%;
 }
-/* line 526, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
 .android #info.active {
-  top: 65px;
+  display: block;
 }
-/* line 530, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 .android #info h1 {
-  font-size: 26px;
+  font-size: 28px;
   margin: 0 0 0px 0;
 }
-/* line 535, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 .android #info p {
-  font-size: 15px;
+  font-size: 18px;
   margin: 15px 0 0 0;
 }
 
 /** Main Navigation **/
-/* line 543, ../sass/screen.scss */
+/* line 544, ../sass/screen.scss */
 .android #menu {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
-/* line 551, ../sass/screen.scss */
+/* line 552, ../sass/screen.scss */
 .android #menu ul li a {
   font-size: 22px;
 }
 
 /** video items **/
-/* line 559, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 .android .contentWrapper {
   padding-top: 92px;
 }
 
-/* line 569, ../sass/screen.scss */
+/* line 570, ../sass/screen.scss */
 .android section.items article .itemHeader h2 {
   font-size: 25px;
   margin: 0 0 10px 0;
@@ -727,27 +728,27 @@ section.items article a img {
   height: 41px;
   background-size: 41px auto;
 }
-/* line 578, ../sass/screen.scss */
+/* line 579, ../sass/screen.scss */
 .android section.items article .itemHeader h2.vasktor {
   font-size: 14px;
   padding: 0 0 0 97px;
   background-image: url(../img/iconer.svg), url(../img/iconer.svg);
 }
-/* line 586, ../sass/screen.scss */
+/* line 587, ../sass/screen.scss */
 .android section.items article .itemHeader h2.komOvnEm {
   font-size: 16px;
   padding: 0 0 0 142px;
   background-image: url(../img/iconer.svg), url(../img/iconer.svg), url(../img/iconer.svg);
 }
-/* line 596, ../sass/screen.scss */
+/* line 597, ../sass/screen.scss */
 .android section.items article .itemHeader h2 p {
   font-size: 13px;
 }
-/* line 601, ../sass/screen.scss */
+/* line 602, ../sass/screen.scss */
 .android section.items article .itemHeader p {
   font-size: 15px;
 }
-/* line 608, ../sass/screen.scss */
+/* line 609, ../sass/screen.scss */
 .android section.items article a span {
   top: 50%;
   margin-top: -75px;

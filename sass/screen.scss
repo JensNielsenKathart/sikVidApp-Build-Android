@@ -517,23 +517,24 @@ section.items {
 .android #info {
   width: 90%;
   height: 85%;
-  top: -100%;
+  top: 65px;
+  display: none;
   margin-right: 0%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   padding: 10% 5% 5% 5%;
 
   &.active {
-    top: 65px;
+    display: block;
   }
 
   h1 {
-    font-size: 26px;
+    font-size: 28px;
     margin: 0 0 0px 0;
   }
 
   p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 15px 0 0 0;
   }
 }
