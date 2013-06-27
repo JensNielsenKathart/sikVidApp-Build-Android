@@ -17,8 +17,10 @@ Jens Nielsen
 <content src="index.html" />
 
     <!--<access origin=".*" browserOnly="true"/>-->
+    <access origin="http://www.sik.dk/tjek-din-haandvaerker" />
 
-    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="No" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="show-splash-screen-spinner" value="true" />
 
