@@ -19,7 +19,6 @@ Jens Nielsen
     <feature name="http://api.phonegap.com/1.0/device" />
     <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 
-    <access origin="http://www.sik.dk" />
     <access origin="http://127.0.0.1*"/>
 
     <preference name="OpenAllWhitelistURLsInWebView"    value="No" />
