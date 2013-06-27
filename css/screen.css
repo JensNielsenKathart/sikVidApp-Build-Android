@@ -535,6 +535,7 @@ section.items article .itemHeader p {
 }
 /* line 369, ../sass/screen.scss */
 section.items article video {
+  display: none;
   width: 98%;
   height: auto;
   border: 3px solid white;
@@ -547,10 +548,9 @@ section.items article video {
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
 }
-/* line 377, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 section.items article a {
   position: relative;
-  display: none;
   height: auto;
   border: 3px solid white;
   overflow: hidden;

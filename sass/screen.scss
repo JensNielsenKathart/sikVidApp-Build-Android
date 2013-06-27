@@ -367,6 +367,7 @@ section.items {
      }
 
      video {
+       display: none;
        width: 98%;
        height: auto;
        border: 3px solid $colorWhite;
@@ -376,7 +377,6 @@ section.items {
 
      a {
        position: relative;
-       display: none;
        height: auto;
        border: 3px solid $colorWhite;
        overflow: hidden;
