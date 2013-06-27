@@ -211,13 +211,9 @@ nav {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   padding: 10% 5% 5% 5%;
-  @extend .animateEaseInOut;
-  @include box-shadow(rgba($colorBlack, 1.0) 0px 0px 50px);
-  /*@include border-radius(10px);*/
 
   &.active {
     top: 40px;
-    @extend .animateEaseInOut;
   }
 
   .bar {
@@ -376,12 +372,11 @@ section.items {
        border: 3px solid $colorWhite;
        @include border-radius(5px);
        @include box-shadow(rgba($colorBlack, 0.3) 0px 0px 3px);
-       display: none;
      }
 
      a {
        position: relative;
-       display: block;
+       display: none;
        height: auto;
        border: 3px solid $colorWhite;
        overflow: hidden;
