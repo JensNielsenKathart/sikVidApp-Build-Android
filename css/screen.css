@@ -617,7 +617,7 @@ section.items article a img {
   padding-right: 75px;
   padding-left: 75px;
   height: 75px;
-  background-image: url("../img/logo.svg");
+  background-image: url("../img/logo.png");
   background-position: center 10px;
   background-size: 180px auto;
 }
@@ -647,7 +647,7 @@ section.items article a img {
 .android nav section .infoBtnWrapper .btnNav.active span,
 .android nav section .navBtnWrapper .btnInfo.active span,
 .android nav section .navBtnWrapper .btnNav.active span {
-  background-position: center -79px;
+  background-position: center -81px;
 }
 /* line 471, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo span,
@@ -656,99 +656,100 @@ section.items article a img {
 .android nav section .navBtnWrapper .btnNav span {
   width: 74px;
   height: 75px;
-  background-position: center 10px;
+  background-position: center 17px;
   background-size: auto 140px;
 }
 /* line 487, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo span {
-  background-image: url("../img/iconInfo.svg");
+  background-image: url("../img/iconInfo.png");
+  background-position: center 13px;
 }
-/* line 496, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 .android nav section .navBtnWrapper {
   left: 0%;
 }
-/* line 499, ../sass/screen.scss */
+/* line 500, ../sass/screen.scss */
 .android nav section .navBtnWrapper.active {
   left: 70%;
 }
-/* line 506, ../sass/screen.scss */
+/* line 507, ../sass/screen.scss */
 .android nav section .navBtnWrapper .btnNav span {
-  background-image: url("../img/iconMenu.svg");
+  background-image: url("../img/iconMenu.png");
 }
 
 /** Info box **/
-/* line 517, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 .android #info {
   width: 90%;
   height: 85%;
   top: 65px;
   display: none;
-  margin-right: 0%;
+  margin-right: 0px;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   padding: 10% 5% 5% 5%;
 }
-/* line 527, ../sass/screen.scss */
+/* line 528, ../sass/screen.scss */
 .android #info.active {
   display: block;
 }
-/* line 531, ../sass/screen.scss */
+/* line 532, ../sass/screen.scss */
 .android #info h1 {
   font-size: 28px;
   margin: 0 0 0px 0;
 }
-/* line 536, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 .android #info p {
   font-size: 18px;
   margin: 15px 0 0 0;
 }
 
 /** Main Navigation **/
-/* line 544, ../sass/screen.scss */
+/* line 545, ../sass/screen.scss */
 .android #menu {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
-/* line 552, ../sass/screen.scss */
+/* line 553, ../sass/screen.scss */
 .android #menu ul li a {
   font-size: 22px;
 }
 
 /** video items **/
-/* line 560, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 .android .contentWrapper {
   padding-top: 92px;
 }
 
-/* line 570, ../sass/screen.scss */
+/* line 571, ../sass/screen.scss */
 .android section.items article .itemHeader h2 {
-  font-size: 25px;
+  font-size: 30px;
   margin: 0 0 10px 0;
   padding: 0 0 0 51px;
   height: 41px;
   background-size: 41px auto;
 }
-/* line 579, ../sass/screen.scss */
+/* line 580, ../sass/screen.scss */
 .android section.items article .itemHeader h2.vasktor {
-  font-size: 14px;
+  font-size: 17px;
   padding: 0 0 0 97px;
   background-image: url(../img/iconer.svg), url(../img/iconer.svg);
 }
-/* line 587, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 .android section.items article .itemHeader h2.komOvnEm {
-  font-size: 16px;
+  font-size: 18px;
   padding: 0 0 0 142px;
   background-image: url(../img/iconer.svg), url(../img/iconer.svg), url(../img/iconer.svg);
 }
-/* line 597, ../sass/screen.scss */
+/* line 598, ../sass/screen.scss */
 .android section.items article .itemHeader h2 p {
   font-size: 13px;
 }
-/* line 602, ../sass/screen.scss */
+/* line 603, ../sass/screen.scss */
 .android section.items article .itemHeader p {
-  font-size: 15px;
+  font-size: 18px;
 }
-/* line 609, ../sass/screen.scss */
+/* line 610, ../sass/screen.scss */
 .android section.items article a span {
   top: 50%;
   margin-top: -75px;
@@ -756,6 +757,6 @@ section.items article a img {
   margin-left: -75px;
   width: 150px;
   height: 150px;
-  background-image: url("../img/iconPlay.svg");
+  background-image: url("../img/iconPlay.png");
   background-size: 150px 150px;
 }
