@@ -7,7 +7,6 @@
     <link href='css/screen.css' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-    <script src="js/cordova.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/scripts.js"></script>
@@ -69,10 +68,10 @@
 
         <article class="clearfix" id="afbryder">
             <div class="itemHeader">
-                <h2 style="background-position: 0px -687px">afbryder a<p>Varighed: 00:33</p></h2>
+                <h2 style="background-position: 0px -687px">afbryder<p>Varighed: 00:33</p></h2>
                 <p>Både virksomheder uden autorisation og forbrugere må  gerne udskifte en afbryder i en eksisterende installation.</p>
             </div>
-            <a href="javascript:window.plugins.videoPlayer.play("file:///android_asset/www/video/afbryder.mp4");"><span></span><img src="img/vidImg_afbryder.png" /></a>
+            <div class="videoBtn" onClick="window.plugins.videoPlayer.play('file:///assets/www/video/afbryder.mp4');"><!--<span></span>--><img src="img/vidImg_afbryder.png" /></div>
 
 
             <video poster="img/vidImg_afbryder.png" controls>

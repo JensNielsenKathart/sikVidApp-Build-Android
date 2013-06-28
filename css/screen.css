@@ -549,8 +549,9 @@ section.items article video {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
 }
 /* line 378, ../sass/screen.scss */
-section.items article a {
+section.items article a, section.items article .videoBtn {
   position: relative;
+  cursor: pointer;
   display: block;
   height: auto;
   border: 3px solid white;
@@ -564,8 +565,8 @@ section.items article a {
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
 }
-/* line 387, ../sass/screen.scss */
-section.items article a span {
+/* line 388, ../sass/screen.scss */
+section.items article a span, section.items article .videoBtn span {
   display: block;
   position: absolute;
   top: 50%;
@@ -579,8 +580,8 @@ section.items article a span {
   background-position: center center;
   background-size: 100px 100px;
 }
-/* line 404, ../sass/screen.scss */
-section.items article a img {
+/* line 405, ../sass/screen.scss */
+section.items article a img, section.items article .videoBtn img {
   display: block;
   width: 100%;
   height: auto;
@@ -589,23 +590,23 @@ section.items article a img {
 /*************/
 /** Android **/
 /*************/
-/* line 417, ../sass/screen.scss */
+/* line 418, ../sass/screen.scss */
 .android nav {
   height: 92px;
   background-size: 1213px 17px;
 }
-/* line 423, ../sass/screen.scss */
+/* line 424, ../sass/screen.scss */
 .android nav.active {
   left: 70%;
 }
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 .android nav section {
   height: 75px;
   /** Begge knapper **/
   /** Info knap **/
   /** Menu knap **/
 }
-/* line 430, ../sass/screen.scss */
+/* line 431, ../sass/screen.scss */
 .android nav section .logo {
   padding-right: 75px;
   padding-left: 75px;
@@ -614,13 +615,13 @@ section.items article a img {
   background-position: center 10px;
   background-size: 180px auto;
 }
-/* line 443, ../sass/screen.scss */
+/* line 444, ../sass/screen.scss */
 .android nav section .infoBtnWrapper,
 .android nav section .navBtnWrapper {
   height: 75px;
   width: 75px;
 }
-/* line 448, ../sass/screen.scss */
+/* line 449, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo,
 .android nav section .infoBtnWrapper .btnNav,
 .android nav section .navBtnWrapper .btnInfo,
@@ -628,21 +629,21 @@ section.items article a img {
   height: 75px;
   width: 74px;
 }
-/* line 452, ../sass/screen.scss */
+/* line 453, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo.active,
 .android nav section .infoBtnWrapper .btnNav.active,
 .android nav section .navBtnWrapper .btnInfo.active,
 .android nav section .navBtnWrapper .btnNav.active {
   background-color: #ce2323;
 }
-/* line 456, ../sass/screen.scss */
+/* line 457, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo.active span,
 .android nav section .infoBtnWrapper .btnNav.active span,
 .android nav section .navBtnWrapper .btnInfo.active span,
 .android nav section .navBtnWrapper .btnNav.active span {
   background-position: center -81px;
 }
-/* line 464, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo span,
 .android nav section .infoBtnWrapper .btnNav span,
 .android nav section .navBtnWrapper .btnInfo span,
@@ -652,26 +653,26 @@ section.items article a img {
   background-position: center 17px;
   background-size: auto 140px;
 }
-/* line 480, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 .android nav section .infoBtnWrapper .btnInfo span {
   background-image: url("../img/iconInfo.png");
   background-position: center 13px;
 }
-/* line 490, ../sass/screen.scss */
+/* line 491, ../sass/screen.scss */
 .android nav section .navBtnWrapper {
   left: 0%;
 }
-/* line 493, ../sass/screen.scss */
+/* line 494, ../sass/screen.scss */
 .android nav section .navBtnWrapper.active {
   left: 70%;
 }
-/* line 500, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 .android nav section .navBtnWrapper .btnNav span {
   background-image: url("../img/iconMenu.png");
 }
 
 /** Info box **/
-/* line 511, ../sass/screen.scss */
+/* line 512, ../sass/screen.scss */
 .android #info {
   width: 90%;
   height: 85%;
@@ -682,39 +683,39 @@ section.items article a img {
   -webkit-overflow-scrolling: touch;
   padding: 10% 5% 5% 5%;
 }
-/* line 521, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 .android #info.active {
   display: block;
 }
-/* line 525, ../sass/screen.scss */
+/* line 526, ../sass/screen.scss */
 .android #info h1 {
   font-size: 28px;
   margin: 0 0 0px 0;
 }
-/* line 530, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 .android #info p {
   font-size: 18px;
   margin: 15px 0 0 0;
 }
 
 /** Main Navigation **/
-/* line 538, ../sass/screen.scss */
+/* line 539, ../sass/screen.scss */
 .android #menu {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
-/* line 546, ../sass/screen.scss */
+/* line 547, ../sass/screen.scss */
 .android #menu ul li a {
   font-size: 22px;
 }
 
 /** video items **/
-/* line 554, ../sass/screen.scss */
+/* line 555, ../sass/screen.scss */
 .android .contentWrapper {
   padding-top: 92px;
 }
 
-/* line 564, ../sass/screen.scss */
+/* line 565, ../sass/screen.scss */
 .android section.items article .itemHeader h2 {
   font-size: 30px;
   margin: 0 0 10px 0;
@@ -722,27 +723,27 @@ section.items article a img {
   height: 42px;
   background-image: url(../img/iconer.png);
 }
-/* line 573, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .android section.items article .itemHeader h2.vasktor {
   font-size: 17px;
   padding: 0 0 0 97px;
   background-image: url(../img/iconer.png), url(../img/iconer.png);
 }
-/* line 581, ../sass/screen.scss */
+/* line 582, ../sass/screen.scss */
 .android section.items article .itemHeader h2.komOvnEm {
   font-size: 18px;
   padding: 0 0 0 142px;
   background-image: url(../img/iconer.png), url(../img/iconer.png), url(../img/iconer.png);
 }
-/* line 591, ../sass/screen.scss */
+/* line 592, ../sass/screen.scss */
 .android section.items article .itemHeader h2 p {
   font-size: 13px;
 }
-/* line 596, ../sass/screen.scss */
+/* line 597, ../sass/screen.scss */
 .android section.items article .itemHeader p {
   font-size: 18px;
 }
-/* line 603, ../sass/screen.scss */
+/* line 604, ../sass/screen.scss */
 .android section.items article a span {
   top: 50%;
   margin-top: -75px;
