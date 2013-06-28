@@ -12,6 +12,9 @@
     <script src="js/scripts.js"></script>
     <script src="js/jquery.insight.js"></script>
     <script src="video.js"></script>
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
+
 
 </head>
 <body>
@@ -68,7 +71,7 @@
 
         <article class="clearfix" id="afbryder">
             <div class="itemHeader">
-                <h2 style="background-position: 0px -687px">afbryder<p>Varighed: 00:33</p></h2>
+                <h2 style="background-position: 0px -687px">afbryder onclick direkte<p>Varighed: 00:33</p></h2>
                 <p>Både virksomheder uden autorisation og forbrugere må  gerne udskifte en afbryder i en eksisterende installation.</p>
             </div>
             <div class="videoBtn" onClick="window.plugins.videoPlayer.play('video/afbryder.mp4');"><!--<span></span>--><img src="img/vidImg_afbryder.png" /></div>
@@ -87,10 +90,12 @@
 
         <article class="clearfix" id="bruser">
             <div class="itemHeader">
-                <h2 style="background-position: 0px 0px">Bruser<p>Varighed: 00:54</p></h2>
+                <h2 style="background-position: 0px 0px">Bruser onclick assets path<p>Varighed: 00:54</p></h2>
                 <p>Både virksomheder uden autorisation og forbrugere må gerne udskifte et brusearmatur og blandingsbatteri, hvis der er en stophane.</p>
             </div>
-            <a href="video/bruser.mp4" ><span></span><img src="img/vidImg_bruser.png" /></a>
+            <a onClick="window.plugins.videoPlayer.play('file:///assets/www/video/afbryder.mp4');" ><span></span><img src="img/vidImg_bruser.png" /></a>
+
+
             <video poster="img/vidImg_bruser.png" controls>
                 <source src="video/bruser.mp4" type='video/mp4;'>
             </video>
@@ -103,10 +108,11 @@
 
         <article class="clearfix" id="gulvvarme">
             <div class="itemHeader">
-                <h2 style="background-position: 0px -589px">Gulvvarme<p>Varighed: 01:04</p></h2>
+                <h2 style="background-position: 0px -589px">Gulvvarme google<p>Varighed: 01:04</p></h2>
                 <p>Både virksomheder uden autorisation og forbrugere må gerne installere vandbaseret gulvvarme. Hvis der er tale om el-gulvvarme, kræver det en autoriseret elinstallatør.</p>
             </div>
-            <a href="video/gulvvarme.mp4"><span></span><img src="img/vidImg_gulvvarme.png" /></a>
+            <a href="http://www.google.com"><span></span><img src="img/vidImg_gulvvarme.png" /></a>
+
             <video poster="img/vidImg_gulvvarme.png" controls>
                 <source src="video/gulvvarme.mp4" type='video/mp4;'>
             </video>
