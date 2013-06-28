@@ -17,8 +17,10 @@ Jens Nielsen
 <content src="index.html" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
+
     <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
-    <plugin name="VideoPlayer" value="com.phonegap.plugins.video.VideoPlayer"/>
+    <plugin name="VideoPlayer" value="src.com.phonegap.plugins.video.VideoPlayer"/>
+    <plugin name="WebIntent" value="src.com.borismus.webintent.WebIntent"/>
 
     <access origin="http://127.0.0.1*"/>
 
